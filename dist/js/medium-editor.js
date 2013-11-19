@@ -144,7 +144,7 @@ if (window.module !== undefined) {
             var i,
                 elementid,
                 content = {};
-            space = space || '0';
+            space = space || null;
             for (i = 0; i < this.elements.length; i += 1) {
 
                 elementid = (this.elements[i].id !== '') ? this.elements[i].id : 'element-' + i.toString();
